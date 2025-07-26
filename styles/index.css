@@ -245,13 +245,7 @@ footer{
   margin-left: 220px;
   margin-top: 50px;
 }
-.logo-p{
-  width: 359px;
-  height: 81px;
-  font-size: 32px;
-  font-weight: 400;
-  color: rgba(0, 0, 0, 0.5);
-}
+
 .home-section{
   margin-left: 50px;
   width: 85px;
@@ -279,14 +273,13 @@ footer{
 
 
 
-
 @media screen and (max-width: 576px){
   .navbar{
     flex-direction:row;
 
      }
      .nav-links{
-      flex-direction: unset;
+      
      }
   .displaynone{
     display: none;
@@ -294,6 +287,12 @@ footer{
   
   .banner{
     flex-direction: column-reverse;
+  }
+  .flower-container{
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .flower-trusted-saler{
+    
   }
 
   } 
