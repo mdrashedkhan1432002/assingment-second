@@ -298,7 +298,8 @@ footer{
     grid-template-columns: repeat(2, 1fr);
   }
   .flower-trusted-saler{
-    
   }
-
+  footer{
+    flex-direction: column;
+  }
   } 
